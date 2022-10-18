@@ -39,10 +39,10 @@ This is a JavaScript app I conceived and built from scratch using JavaScript ES6
 * JavaScript
 * ES6 / ECMAScript 2015
 * Vanilla JavaScript
-* JavaScript Array Methods
-* has(), forEach(), includes(), filter()
-* Regular Expressions
-* Set()
+* JavaScript Time & Date
+* HTML5/CSS3
+* Web Forms
+* Self-Submitting Forms
 * Single Page App (SPA)
 
 ## TAGS
