@@ -60,18 +60,6 @@ Here is the (low fidelity) wireframe I made in Google Slides.
 ## Requires:
 * A web browser
 
-## TAGS:
-`Modern JavaScript` `JavaScript` `ES6` `App`
-
-## VOCAB:
-- N/A
-
-## Resources:
-- N/A
-
-
-
-
 ## Included Scripts
 
 - N/A
