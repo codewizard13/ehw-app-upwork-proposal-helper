@@ -29,7 +29,7 @@ This is a JavaScript app I conceived and built from scratch using JavaScript ES6
   
 ### Project Screenshots:
 
-![Warning](img/warning-1.jpg)
+![Screenshot of Upwork Proposal Helper single page app (SPA) in action (2018)](img/screenshot1.png)
 
 ## Usage:
 1. N/A
