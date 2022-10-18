@@ -17,7 +17,7 @@
 
 ## Purpose:
 
-**<u>App:</u>** Lets user type notes or log entries which are then stored and retrieved using local storage. Includes datea and time info. Plain vanilla JavaScript.
+**<u>App:</u>** Single page app (SPA) to help develop Upwork proposals.
 
 ### Demonstrates
 
@@ -81,9 +81,10 @@ Here is the (low fidelity) wireframe I made in Google Slides.
 * has(), forEach(), includes(), filter()
 * Regular Expressions
 * Set()
+* Single Page App (SPA)
 
 ## TAGS
-`JavaScript` `ES6` `Code Challenge` `Vanilla JavaScript` `JavaScript Array Methods` `Modern JavaScript` `ECMAScript 2015` `ES2015` `Regex` `Regular Expressions`
+`HTML5` `CSS3` `Single Page App (SPA)` `JavaScript` `ES6` `App` `Vanilla JavaScript` `ECMAScript 2015` `ES2015` `Web Forms` `Forms`
 
 ## VOCAB
 - N/A
