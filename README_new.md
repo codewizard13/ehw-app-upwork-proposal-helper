@@ -23,7 +23,9 @@
 ### Description
 
 This is a JavaScript app I conceived and built from scratch using JavaScript ES6, Bootstrap, CSS Grid, and Flexbox.
-  
+
+#### [Live Demo](/#)
+
 ### Project Screenshots:
 
 ![Screenshot of Upwork Proposal Helper single page app (SPA) in action (2018)](img/screenshot1.jpg)
