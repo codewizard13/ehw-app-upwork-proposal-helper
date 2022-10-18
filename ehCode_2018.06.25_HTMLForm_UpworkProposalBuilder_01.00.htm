@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<!--
+File Name: ehCode_2018.06.25_HTMLForm_UpworkProposalBuilder_01.htm
+Date: 06/25/18
+Programmer: Eric Hepperle
+-->
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Upwork Proposal Builder (2018)</title>
+  
+<link rel="stylesheet" href="styles/<<somestyles.css>>">
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+#wrapper {
+    max-width: 1024px;
+    width: 80%;
+    border: solid gray 1px;
+    margin: 2em auto;
+    padding: 1.2em
+}
+
+form {
+    border: solid red 2px;
+    background: aliceblue;
+    margin-bottom: 1.5em;
+    padding: .6em;
+}
+
+form input {
+    padding: .4em .6em;
+    margin-left: 4em;
+}
+
+form input[type="submit"] {
+    background: green;
+    color: white;
+    margin-top: 1em;
+    width: 6em;
+    border-radius: .3em;
+    margin-left: 0;
+}
+
+#results {
+    padding: 2em .6em;
+    background: #ffffb3;
+    border: solid brown 1px;
+}
+
+</style>
+
+<!-- Any web fonts from Google -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+  
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header class="content">
+
+<h1>Eric Hepperle's Upwork Proposal Builder (2018)</h1>
+
+<p>Some header tag line or other introductory text.</p>
+
+</header>
+
+<main>
+
+<form method="GET" action="#">
+
+    <label for="listing-title">Listing Title</label>
+    <input type="text" id="listing-title" name="listing-title" value="" ><br>
+    
+    <input type="submit" id="submit" name="submit" value="Submit">
+    
+    
+
+</form>
+
+<section id="results">Results will show up here.</section>
+
+</main>
+
+
+
+
+
+</div>
+
+
+<!-- NOTE: except in lists and tables all code is left aligned; no indent -->
+
+<!-- NOTE: Scripts go at bottom before the closing body tag, listed in order of dependency. jquery.js is always first. -->
+
+<script>
+// will open the print dialog: #RARE
+// submit.onclick=window.print();
+
+submit.onclick = function() {
+    // build html output
+    
+    var out = "TEST TEXT.";
+    var form = document.querySelector('form');
+    
+    // get all form values and build output
+    var listing-title = document.querySelector('listing-title');
+    
+    
+    out += document.querySelector('#listing-title').value;
+    
+    // display in results div
+    document.querySelector('#results').innerHTML = out;
+    
+};
+
+
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<!--
+File Name: ehCode_2018.06.25_HTMLForm_UpworkProposalBuilder_01.01.htm
+Date: 06/25/18
+Programmer: Eric Hepperle
+-->
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Upwork Proposal Builder (2018 v. 1.01)</title>
+  
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+#wrapper {
+    max-width: 1024px;
+    width: 80%;
+    border: solid gray 1px;
+    margin: 2em auto;
+    padding: 1.2em
+}
+
+form {
+    border: solid red 2px;
+    background: aliceblue;
+    margin-bottom: 1.5em;
+    padding: .6em;
+}
+
+form label {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+form input {
+    padding: .4em .6em;
+    margin-left: 4em;
+    margin-bottom: .4em
+}
+
+form input[type="submit"] {
+    background: green;
+    color: white;
+    margin-top: 1em;
+    width: 6em;
+    border-radius: .3em;
+    margin-left: 0;
+}
+
+textarea {
+    width: 33em;
+    height: 10em;
+    /*resize: both;*/
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;    
+}
+
+#results {
+    padding: 2em .6em;
+    background: #ffffb3;
+    border: solid brown 1px;
+}
+
+.line-title {
+    font-weight: bold;
+    color: brown;
+}
+
+</style>
+
+<!-- Any web fonts from Google -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+  
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header class="content">
+
+<h1>Eric Hepperle's Upwork Proposal Builder (2018)</h1>
+
+<p>Some header tag line or other introductory text.</p>
+
+</header>
+
+<main>
+
+<form method="GET" action="#">
+
+    <label for="listing-title">Listing Title</label>
+    <input type="text" id="listing-title" name="listing-title" value="" ><br>
+    
+    <label for="listing-url">Listing URL</label>
+    <input type="text" id="listing-url" name="listing-url" value=""><br>
+    
+    <label for="project-details">Project Details</label>
+    <textarea id="project-details" name="project-details" placeholder="Enter project details"></textarea><br>
+    
+    <label for="required-questions">Required Questions</label>
+    <textarea id="required-questions" name="required-questions" placeholder="Enter the question required by the client"></textarea><BR>
+    
+    
+    <input type="submit" id="submit" name="submit" value="Submit">
+    
+    
+
+</form>
+
+<section id="results">Results will show up here.</section>
+
+</main>
+
+
+
+
+
+</div>
+
+
+<!-- NOTE: except in lists and tables all code is left aligned; no indent -->
+
+<!-- NOTE: Scripts go at bottom before the closing body tag, listed in order of dependency. jquery.js is always first. -->
+
+<script>
+// will open the print dialog: #RARE
+// submit.onclick=window.print();
+
+submit.onclick = function() {
+    // build html output
+    
+    var out = "";
+    //var form = document.querySelector('form');
+
+    // get all form values and build output
+    var listingTitle = document.querySelector('#listing-title').value;
+    
+    var listingTitleOut = "<span class='line-title'>Listing Title: </span>" + listingTitle + "<br>"
+    
+    //var date = // today's date
+    //var time = // today's time
+    var listingURL = document.querySelector('#listing-url').value;
+    var projectDetails = document.querySelector('#project-details').value;
+    var requiredQuestions = document.querySelector('#required-questions').value;
+    // Client pay rate
+    // Fixed-price or hourly
+    // Deadline or due date?
+    // Time-frame for completion
+    
+    
+    
+    
+    
+    out += listingTitleOut;
+    
+    // display in results div
+    document.querySelector('#results').innerHTML = out;
+    
+    // #GOTCHA --> Without this return statement output appears for a milisecond
+    // then the form refreshes.
+    return false;
+    
+    
+};
+
+
+</script>
+
+
+</body>
+
+</html>
