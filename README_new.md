@@ -31,25 +31,6 @@ This is a JavaScript app I conceived and built from scratch using JavaScript ES6
 
 ![Warning](img/warning-1.jpg)
 
-#### Wireframe (Google Slides)
-
-Here is the (low fidelity) wireframe I made in Google Slides.
-
-<!--
-<link rel="stylesheet" href="messages.css">
-
-<aside class="warning in-progress">
-  <div class="warning-label">
-    Warning
-  </div>
-  <div class="warning-details">
-    This README.md file is incomplete and may be missing key information.
-  </div>
-</aside>
- -->
-![Mockup](img/screen-mockup-2.jpg)
-
-
 ## Usage:
 1. N/A
    
