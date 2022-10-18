@@ -19,9 +19,6 @@
 
 **<u>App:</u>** Single page app (SPA) to help develop Upwork proposals.
 
-### Demonstrates
-
-- TBA
 
 ### Description
 
@@ -32,28 +29,12 @@ This is a JavaScript app I conceived and built from scratch using JavaScript ES6
 ![Screenshot of Upwork Proposal Helper single page app (SPA) in action (2018)](img/screenshot1.jpg)
 
 ## Usage:
+
 1. N/A
    
-## Sample results: 
-
-- N/A
-
 ## Requires:
 * A web browser
 
-## Included Scripts
-
-- N/A
-
-### Materials/References
-
-- **Wordplay file:** https://paper.dropbox.com/doc/Programming-practice-problems-Qp6jAVBXAuDZWiz5x6r9J
-- **sowpods file:** - https://www.dropbox.com/s/qkg62nkh483g635/sowpods.txt?dl=0
-
-
-## Requires
-* Browser opened to a YouTube video with developer console exposed.
-    
 ## Demonstrates
 * JavaScript
 * ES6 / ECMAScript 2015
@@ -66,9 +47,6 @@ This is a JavaScript app I conceived and built from scratch using JavaScript ES6
 
 ## TAGS
 `HTML5` `CSS3` `Single Page App (SPA)` `JavaScript` `ES6` `App` `Vanilla JavaScript` `ECMAScript 2015` `ES2015` `Web Forms` `Forms`
-
-## VOCAB
-- N/A
 
 ## Resources
 - N/A
