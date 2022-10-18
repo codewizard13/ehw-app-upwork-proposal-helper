@@ -24,7 +24,8 @@
 
 This is a JavaScript app I conceived and built from scratch using JavaScript ES6, Bootstrap, CSS Grid, and Flexbox.
 
-#### [Live Demo](/#)
+* Set()
+#### [Live Demo](http://upwork-helper.erichepperle.com/)
 
 ### Project Screenshots:
 
@@ -35,9 +36,11 @@ This is a JavaScript app I conceived and built from scratch using JavaScript ES6
 1. N/A
    
 ## Requires:
+
 * A web browser
 
 ## Demonstrates
+
 * JavaScript
 * ES6 / ECMAScript 2015
 * Vanilla JavaScript
